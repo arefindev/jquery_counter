@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.page-container {
+    width: 1000px;
+    margin: 30px auto;
+}
+.counter-items {
+    text-align: center;
+}
+.counter-item {
+    width: 200px;
+    display: inline-block;
+    background: #cdcdcd;
+    padding: 20px;
+    text-align: center;
+}
+.counter-item .counter {
+    font-size: 40px;
+    font-weight: bold;
+}
+.counter-item .text {
+    font-size: 20px;
+}
